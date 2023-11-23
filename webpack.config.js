@@ -9,7 +9,7 @@ module.exports = {
 	plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, "src", "index.html")
 	})
-	/* følgende skal indsættes ved oprettelse af ethvert nyt HTML dokument, HUSK at ændre dokument-navn:
+	/* følgende skal indsættes ved oprettelse af ethvert nyt HTML dokument, HUSK at ændre dokument-navn og HUSK at stoppe terminalen efter og igangsætte den igen:
 	 new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, "src", "hej.html"),
 		filename: "hej.html"
